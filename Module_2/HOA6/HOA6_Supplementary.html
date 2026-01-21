@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Discover Your World</title>
+
     <!-- Task 1: Add the favicon link here -->
      <link rel = "icon" href = "web-favicon.png" type = "image/png">
+
     <!-- Task 2: Add link to script here -->
     <script src = "script.js"></script>
 </head>
 <body>
     <h1>Discover Your World <span>&#x1F30D;</span><!-- Task 3: Add an emoji here --></h1>
     <p>Click the button to learn about the continent you're on and some famous geographical features.</p>
+
     <!-- Task 4: Add a button for displaying geolocation information here -->
     <button id="getLocation">Discover Location</button>
     <p id="result"></p>
+
     <!-- Script.js is at a separate file. It still gives the same functionality as if the code was here in HTML. -->
-
-
     <img src="https://edube.org/uploads/media/default/0001/04/continents.jpg" usemap="#image-map" alt="World Map">
     <map name="image-map">
-                <!-- Task 5: Add area tags for continents here -->
+        
+    <!-- Task 5: Add area tags for continents here -->
         <area shape = "rect" title = "North America" href = "https://www.britannica.com/place/North-America" coords = "50,50,350,250" alt = "North America">
         <area shape = "rect" title = "South America" href = "https://www.britannica.com/place/South-America" coords = "50,250,350,450" alt = "South America">
         <area shape = "rect" title = "Europe" href = "https://www.britannica.com/place/Europe" coords = "350,50,500,200" alt = "Europe">
@@ -27,5 +30,44 @@
         <area shape = "rect" title = "Asia" href = "https://www.britannica.com/place/Asia" coords = "550,50,850,300" alt = "Asia">
         <area shape = "rect" title = "Australia and Oceania" href = "https://www.britannica.com/place/Australia" coords = "750,350,900,550" alt = "Australia and Oceania">
     </map>
+
+    <!-- Supplementary Activity -->
+    <table border = 1>
+        <tr>
+            <th>Continent Name</th>
+            <th>Area (sq km)</th>
+            <th>Population (Approx)</th>
+        </tr>
+        <tr>
+            <td>Asia</td>
+            <td>44,579,000</td>
+            <td>4.6 Billion</td>
+        </tr>
+        <tr>
+            <td>Africa</td>
+            <td>30,370,000</td>
+            <td>1.3 Billion</td>
+        </tr>
+        <tr>
+            <td>North America</td>
+            <td>24,709,000</td>
+            <td>579 Million</td>
+        </tr>
+        <tr>
+            <td>South America</td>
+            <td>17,840,000</td>
+            <td>423 Million</td>
+        </tr>
+        <tr>
+            <td>Europe</td>
+            <td>10,180,000</td>
+            <td>746 Million</td>
+        </tr>
+        <tr>
+            <td>Australia/Oceania</td>
+            <td>8,600,000</td>
+            <td>43 Million</td>
+        </tr>
+    </table>
 </body>
 </html>
