@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 25%, #a8edea 50%, #fed6e3 75%, #d299c2 100%);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.25);
+    text-align: center;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24, #f0932b);
+    border-radius: 28px;
+    z-index: -1;
+}
+
+.card h2 {
+    color: #2c3e50;
+    font-size: 2.8em;
+    margin: 0 0 20px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+.card p {
+    color: #7f8c8d;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.demo-box {
+    height: 150px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 6px solid #34495e;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: white;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+    position: relative;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    width: 350px;
+    box-sizing: content-box;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.content-box::before {
+    content: "Content Box (box-sizing: content-box)";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    font-size: 0.85em;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.border-box {
+    width: 350px;
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.border-box::before {
+    content: "Border Box (box-sizing: border-box)";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    font-size: 0.85em;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.demo-box:hover {
+    transform: scale(1.03) translateY(-8px);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+}
+
+.demo-box:active {
+    transform: scale(0.98);
+}

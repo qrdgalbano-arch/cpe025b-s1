@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.header-section {
+    background-image: url("https://edube.org/uploads/media/default/0001/03/sunflowers_sunset_full.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: table;
+    width: 100%;
+}
+
+.header-section h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+    margin: 0;
+    position: relative;
+}
+
+.header-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.header-section h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.feature-list li {
+    background: linear-gradient(45deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+    margin: 20px auto;
+    padding: 25px 30px;
+    font-size: 1.4em;
+    color: #2c3e50;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%233498db"><circle cx="12" cy="12" r="10"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding-left: 70px;
+    transition: all 0.3s ease;
+}
+
+.feature-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(52, 152, 219, 0.3);
+}
