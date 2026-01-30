@@ -8,41 +8,21 @@
 
     <!-- BODY -->
     <body>
-        <img src = "mlbb-wallpaper.jpg" width = 50% height = 50%>
+        <img src = "mlbb-wallpaper.jpg" width = 600 height = 400>
         <h1 id="title">MLBB Hero Form</h1>
         <p id="description">
-            Help us develop by answering our survey. Get a chance to win a <strong>special</strong> prize after answering.
+            Help us develop by answering our survey. Get a chance to win a <strong>special skin</strong> after answering.
         </p>
 
         <form id="survey-form">
             <label id="name-label" for="name">Username:</label><br>
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Name..."
-                required
-            ><br><br>
+            <input type="text" id="name" name="name" placeholder="Name..." required><br><br>
 
             <label id="number-label" for="number">ID:</label><br>
-            <input
-                type="number"
-                id="number"
-                name="number"
-                placeholder="ID..."
-                minlength="0"
-                maxlength="15"
-                required
-            ><br><br>
+            <input type="number" id="number" name="number" placeholder="ID..." minlength="0" maxlength="15" required><br><br>
 
             <label id="email-label" for="email">Email Address:</label><br>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email Address..."
-                required
-            ><br><br>
+            <input type="email" id="email" name="email" placeholder="Email Address..." required> <br><br>
 
             <label for="dropdown">Choose a Fighter Hero</label><br>
             <select id="dropdown" name="fighter">
@@ -52,44 +32,46 @@
                 <option value="balmond">Balmond</option>
                 <option value="argus">Argus</option>
                 <option value="chou">Chou</option>
-            </select><br><br>
+            </select><br>
 
             <p>Choose a Mage Hero</p>
             <label>
-                <input type="radio" name="mage" value="eudora">
-                Eudora
+                <input type="radio" name="mage" value="eudora"> Eudora
             </label><br>
+
             <label>
-                <input type="radio" name="mage" value="vale">
-                Vale
+                <input type="radio" name="mage" value="vale"> Vale
             </label><br>
+
             <label>
-                <input type="radio" name="mage" value="valir">
-                Valir
+                <input type="radio" name="mage" value="valir"> Valir
             </label><br><br>
 
-            <p>Select Preferred Roles</p>
+            <p>Choose a Role</p>
+            
             <label>
-                <input type="checkbox" name="roles" value="tank">
-                Tank
+                <input type="checkbox" name="roles" value="exp"> Exp Lane
             </label><br>
+
             <label>
-                <input type="checkbox" name="roles" value="marksman">
-                Marksman
+                <input type="checkbox" name="roles" value="jungle_or_core"> Jungle / Core
             </label><br>
+
             <label>
-                <input type="checkbox" name="roles" value="support">
-                Support
+                <input type="checkbox" name="roles" value="mid"> Mid Lane
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="roles" value="marksman"> Marksman
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="roles" value="roam"> Roam 
             </label><br><br>
 
             <label for="comments">Additional Comments</label><br>
-            <textarea
-                id="comments"
-                name="comments"
-                placeholder="Enter your comments here..."
-                rows="4"
-                cols="40"
-            ></textarea><br><br>
+            <textarea id="comments" name="comments" placeholder="Enter your comments here..." rows="4" cols="40">
+            </textarea><br><br>
 
             <button type="submit" id="submit">Submit</button>
         </form>
