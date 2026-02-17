@@ -7,9 +7,6 @@ void setup() {
   lcd.backlight();   // Turn on the backlight so the screen is visible
   
   lcd.setCursor(0, 0);    // Move cursor to column 0, row 0 (top-left)
-  lcd.print("TIP QC");    // Print "TIP QC" on the first row
-  
-  lcd.setCursor(0, 1);    // Move cursor to column 0, row 1 (second row)
   lcd.print("TEAM NAME"); // Print "TEAM NAME" on the second row
 }
 
