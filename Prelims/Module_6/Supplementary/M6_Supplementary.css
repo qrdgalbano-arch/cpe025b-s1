@@ -1,0 +1,126 @@
+/* Base styles */
+body {
+    font-family: 'Palatino Linotype', Palatino, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #05050f;
+    color: #d0d0f0;
+}
+
+header {
+    background-color: #08081a;
+    color: #c8a8ff;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    border-bottom: 1px solid #c8a8ff22;
+    transition: opacity 2s ease-in-out;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+header.visible {
+    opacity: 1;
+}
+
+.product-intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #070716;
+}
+
+.product-image {
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #c8a8ff33;
+    box-shadow: 0 0 40px #c8a8ff44, 0 0 80px #7b4fff22;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.buy-now {
+    background-color: #1a0a33;
+    color: #c8a8ff;
+    padding: 15px 30px;
+    border: 1px solid #c8a8ff55;
+    cursor: pointer;
+    font-family: 'Palatino Linotype', serif;
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #2e1060;
+    transform: scale(1.1);
+}
+
+.features {
+    padding: 20px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #c8a8ff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c8a8ff22;
+    padding-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    background-color: #0c0c22;
+    color: #b0b0d8;
+    margin: 10px 0;
+    padding: 14px 16px;
+    border: 1px solid #1e1e3a;
+    border-left: 3px solid #c8a8ff;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.feature-item:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.feature-item:nth-child(3) {
+    animation-delay: 1s;
+}
+
+footer {
+    background-color: #08081a;
+    color: #44446a;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #1a1a30;
+    letter-spacing: 0.1em;
+}
