@@ -1,0 +1,92 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: #111;
+    border-top: 6px solid #f5c400;
+    border-bottom: 6px solid #f5c400;
+    padding: 80px 20px;
+}
+
+.hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    color: #f5c400;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.hero-sub {
+    font-size: 1.1rem;
+    color: #aaaaaa;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    color: #f5c400;
+    letter-spacing: 0.15em;
+}
+
+.service-card {
+    background-color: #222;
+    color: #e0e0e0;
+    border-top: 4px solid #f5c400 !important;
+}
+
+.service-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.service-card .card-title {
+    color: #f5c400;
+    letter-spacing: 0.1em;
+}
+
+.service-card .card-text {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
+
+.contact-wrapper {
+    max-width: 600px;
+}
+
+.contact-input {
+    background-color: #111;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    border-radius: 0;
+}
+
+.contact-input:focus {
+    background-color: #111;
+    border-color: #f5c400;
+    color: #e0e0e0;
+    box-shadow: none;
+}
+
+.contact-input::placeholder {
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.footer-section {
+    background-color: #111;
+    color: #555;
+    border-top: 4px solid #f5c400;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+}
