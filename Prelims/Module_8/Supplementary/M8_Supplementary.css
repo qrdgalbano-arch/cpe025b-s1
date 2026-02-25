@@ -1,0 +1,73 @@
+/* M8_Supplementary.css */
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  color: #2d6a4f;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5ef;
+}
+
+.header, .footer {
+  background-color: #92d1b5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #2d6a4f;
+}
+
+.header h1, .footer p {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: #1e4634;
+}
+
+main {
+  padding: 20px;
+}
+
+main .about h2 {
+  font-size: 1.5em;
+  border-left: 4px solid #2d6a4f;
+  padding-left: 10px;
+}
+
+main .about p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #255842;
+}
+
+main .features h2 {
+  font-size: 1.5em;
+  border-left: 4px solid #2d6a4f;
+  padding-left: 10px;
+}
+
+main .features .feature-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+main .features .feature-list li {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #c8e8da;
+  color: #1e4634;
+}
+
+main .example h2 {
+  font-size: 1.5em;
+  border-left: 4px solid #2d6a4f;
+  padding-left: 10px;
+}
+
+main .example .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #c8e8da;
+  color: #1e4634;
+  line-height: 1.8;
+  border: 1px solid #6ec29d;
+}
+/*# sourceMappingURL=M8_Supplementary.css.map */
