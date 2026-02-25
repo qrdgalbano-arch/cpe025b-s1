@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Accessibility Lab</title>
+    <link rel="stylesheet" href="M9_Supplementary.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="navigation-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Quick Links</h2>
+            <p>For more information, visit our <a href="https://example.com">Help Center</a>.</p>
+        </aside>
+
+        <main class="main-content">
+            <h1>Citizen Services Portal</h1>
+
+            <div class="about">
+                <p>This is standard text with a font size of 16px. It should be clear and easy to read.</p>
+                <p class="large-text">This is larger text with a font size of 20px, for better visibility.</p>
+                <div class="high-contrast-text">
+                    This is an example of high contrast text. Black text on a white background.
+                </div>
+            </div>
+
+            <button aria-labelledby="menu-button">
+                <span class="screen-reader-text" id="menu-button">Open Navigation Menu</span>
+                <img src="hamburger-icon.png" alt="Menu">
+            </button>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Citizen Services Portal — Committed to Universal Access</p>
+    </footer>
+
+</body>
+</html>

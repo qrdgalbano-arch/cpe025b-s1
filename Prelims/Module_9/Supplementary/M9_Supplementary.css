@@ -1,0 +1,129 @@
+/* M9_Supplementary.css */
+
+body {
+    color: #333;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #003366;
+    padding: 12px 20px;
+    border-bottom: 4px solid #c8a400;
+}
+
+.navigation-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.navigation-menu a:hover {
+    text-decoration: underline;
+    color: #c8a400;
+}
+
+/* Identifiable Links */
+a {
+    color: #0654b3;
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: #002766;
+}
+
+/* Layout */
+.content {
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+}
+
+.sidebar {
+    flex: 1;
+    order: 1;
+    background-color: #e8eef5;
+    padding: 24px 20px;
+    border-right: 2px solid #c0cfe0;
+}
+
+.sidebar h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #003366;
+    border-bottom: 2px solid #c8a400;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.main-content {
+    flex: 2;
+    order: 2;
+    padding: 32px 28px;
+}
+
+.main-content h1 {
+    font-size: 1.8rem;
+    color: #003366;
+    border-left: 5px solid #c8a400;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+/* Readable Text */
+.large-text {
+    font-size: 20px;
+    color: #222;
+}
+
+.high-contrast-text {
+    color: #000;
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    margin-top: 12px;
+}
+
+/* Screen Reader Accessibility */
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #003366;
+    color: #c8a400;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    border-top: 4px solid #c8a400;
+}
