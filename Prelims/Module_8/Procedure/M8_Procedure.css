@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #007bff;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer {
+  background-color: #cce5ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-list li, .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.about h2 {
+  font-size: 1.5em;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.features h2 {
+  font-size: 1.5em;
+}
+
+.features .feature-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.features .feature-list li {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.example h2 {
+  font-size: 1.5em;
+}
+
+.example .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+/*# sourceMappingURL=M8_Procedure.css.map */
