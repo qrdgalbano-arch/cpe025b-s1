@@ -1,0 +1,194 @@
+/* Base styles */
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    margin: 0;
+    background-color: #f2ede4;
+    color: #111111;
+}
+
+/* Header styles */
+header {
+    background: url('https://edube.org/uploads/media/default/0001/04/products_image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #111111;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111111;
+    color: #f2ede4;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid #d62828;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Main offset to clear fixed header */
+main {
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+/* Product styles */
+.product {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+    background-color: #faf7f2;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.product-image {
+    position: relative;
+    background-color: #ddd8ce;
+    min-height: 80px;
+    border: 2px solid #111111;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #d62828;
+    color: #f2ede4;
+    padding: 5px;
+    border-radius: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* Table styles */
+.product-specs {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #111111;
+}
+
+.product-specs th, .product-specs td {
+    border: 1px solid #111111;
+    padding: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.product-specs th {
+    background-color: #111111;
+    color: #f2ede4;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.product-specs tr:nth-child(even) {
+    background-color: #e8e2d8;
+}
+
+.product-specs tr:hover {
+    background-color: #c8dff0;
+}
+
+/* Form styles */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form form {
+    border: 3px solid #111111;
+    padding: 20px;
+    border-radius: 0;
+    background-color: #faf7f2;
+    box-shadow: 8px 8px 0px #111111;
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    border-bottom: 3px solid #d62828;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #111111;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #111111;
+    background-color: #f2ede4;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 0;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #111111;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 0;
+    box-shadow: 4px 4px 0px #111111;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+    box-shadow: 2px 2px 0px #111111;
+}
+
+/* Header heading */
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 4px;
+    color: #111111;
+    text-shadow: 3px 3px 0px #d62828;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #111111;
+    border-bottom: 2px solid #d62828;
+    padding-bottom: 4px;
+}
