@@ -1,0 +1,71 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #0a0a12; /* Dark navy-black using HEX value */
+    color: #e0e0f0;
+}
+
+header {
+    background-image: url('https://edube.org/uploads/media/default/0001/04/portfolio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: cmyk(0, 100, 100, 0); /* Red using CMYK value */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 240, 200); /* Neon teal using RGB value */
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 12px rgb(0, 240, 200);
+}
+
+h2 {
+    color: hsl(280, 100%, 72%); /* Neon purple using HSL value */
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Orbitron', sans-serif;
+}
+
+main {
+    background: linear-gradient(to bottom, #12003a, #0a0a12);
+}
+
+p {
+    font-size: 18px;
+    color: #d4d4f0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    line-height: 1.6;
+    padding-left: 10px;
+    color: #d4d4f0;
+}
+
+a:link {
+    color: #00f0c8;
+}
+
+a:visited {
+    color: #bf5fff;
+}
+
+a:hover {
+    color: #ff2d78;
+}
+
+footer {
+    color: #a0a0c0;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00f0c8;
+}
