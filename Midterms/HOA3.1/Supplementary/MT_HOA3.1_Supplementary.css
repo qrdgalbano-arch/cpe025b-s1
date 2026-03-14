@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    background-color: #0d1b2a;
+    color: #c9b99a;
+}
+
+/* Header styles */
+header {
+    background-color: #091422;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #091422;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Element selector */
+h2 {
+    color: #e8d5b7;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Class selector */
+.highlight {
+    background-color: #c9a84c;
+    color: #0d1b2a;
+    padding: 4px;
+}
+
+/* ID selector */
+#header {
+    border-bottom: 2px solid #c9a84c;
+}
+
+/* Attribute selector */
+a[href^="mailto:"] {
+    color: #c9a84c;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #f5ead6;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Combinator selector */
+header + main {
+    border-top: 1px solid #2a3d52;
+}
+
+/* Inline styles (highest specificity) */
+h1 {
+    color: #f5ead6 !important; /* Overridden by inline styles */
+    font-family: 'Playfair Display', serif;
+}
+
+/* Internal styles */
+p {
+    color: #e0c9a6;
+}
+
+/* External styles */
+p {
+    color: #8b7355; /* Overridden by internal styles */
+}
+
+#header h1 {
+    color: #c9a84c !important; /* Overridden by !important */
+}
